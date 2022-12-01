@@ -1,18 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void BttnJogo1()
     {
-        
+        SceneManager.LoadScene("SimCity");
     }
-
-    // Update is called once per frame
-    void Update()
+    public void BttnJogo2()
     {
-        
+        SceneManager.LoadScene("FlappyBird");
+    }
+    public void BttnJogo3()
+    {
+        SceneManager.LoadScene("Kart");
+    }
+    public void Sair()
+    {
+        Application.Quit();
     }
 }
