@@ -6,3 +6,9 @@ UserSettings/
 .vscode/
 
 Logs/
+
+Temp/
+
+.vsconfig
+
+PhysicsPlayground2.sln
