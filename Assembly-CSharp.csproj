@@ -41,6 +41,8 @@
      <Compile Include="Assets\Scripts\FlappyBird\GameManager.cs" />
      <Compile Include="Assets\Scripts\FlappyBird\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\FlappyBird\Player.cs" />
+     <Compile Include="Assets\Scripts\SimCity\Move.cs" />
+     <Compile Include="Assets\Scripts\SimCity\GridCell.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
