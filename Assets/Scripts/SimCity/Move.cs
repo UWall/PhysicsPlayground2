@@ -22,11 +22,11 @@ public class Move : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.S))
         {
-            dir = Vector3.right;
+            dir = Vector3.back;
         }
         if(Input.GetKey(KeyCode.D))
         {
-            dir = Vector3.back;
+            dir = Vector3.right;
         }
 
         transform.position += dir * speed * Time.deltaTime;
